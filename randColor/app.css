@@ -1,0 +1,13 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+}
+.box {
+    height: 400px;
+    width: 400px;
+    background-color: black;
+}
