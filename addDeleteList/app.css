@@ -1,0 +1,39 @@
+ul,
+button {
+    margin: auto;
+}
+ul {
+    border: 4px solid green;
+    padding: 10px;
+    list-style: none;
+    text-align: center;
+    background-color: cornflowerblue;
+    font-size: 40px;
+}
+
+div {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+button {
+    font-size: 30px;
+}
+
+#mainUl .fade {
+    opacity: 0;
+    animation-name: fadeOut;
+    animation-duration: 2s;
+}
+
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+        display: none;
+    }
+    0% {
+        opacity: 1;
+    }
+}
